@@ -62,6 +62,7 @@ export default function Content(props){
 
         if (pointCount > props.highScore) {
             localStorage.setItem("score", JSON.stringify(pointCount))
+            props.updateBestScore(pointCount)
         }
    }
 

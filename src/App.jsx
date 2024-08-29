@@ -13,13 +13,15 @@ export default function App(){
     setLanding(prevState => !prevState)
   }
 
+  function updateBestScore(newScore) {
+    setBestScore(newScore)
+  }
+
   return (
     <div>
-      { landing ? <Landing toggle={toggleScreen} highScore={bestScore}/> : <Content toggle={toggleScreen} highScore={bestScore}/> }
+      { landing ? <Landing toggle={toggleScreen} highScore={bestScore}/> : <Content toggle={toggleScreen} highScore={bestScore} updateBestScore={updateBestScore}/> }
     </div>
 
   )
-
-
 
 }
