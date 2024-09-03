@@ -1,4 +1,3 @@
-###Quizzes the user on a variety of sports trivia questions!
+# Quizzes the user on a variety of sports trivia questions!
 
-
-##https://smart-score-rho.vercel.app/
+## Visit the application here: https://smart-score-rho.vercel.app/
